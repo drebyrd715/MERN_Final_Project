@@ -42,6 +42,6 @@ export async function logIn(credentials) {
     return token;
   } catch (error) {
     console.error("Login failed:", error);
-    throw error; // Rethrow the error to provide more information to the calling code
+    throw error;
   }
 }
