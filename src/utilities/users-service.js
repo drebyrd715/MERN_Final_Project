@@ -30,3 +30,18 @@ export async function signUp(userData) {
   localStorage.setItem("token", token);
   return token;
 }
+
+export function logOut() {
+  localStorage.removeItem("token");
+}
+
+export async function logIn(credentials) {
+  try {
+    const token = await usersAPI.logIn(credentials);
+    localStorage.setItem("token", token);
+    return token;
+  } catch (error) {
+    console.error("Login failed:", error);
+    throw error; // Rethrow the error to provide more information to the calling code
+  }
+}

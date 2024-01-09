@@ -21,3 +21,23 @@ export async function signUp(userData) {
     throw new Error("Invalid Sign Up");
   }
 }
+
+export async function logIn(credentials) {
+  try {
+    const res = await fetch(`${BASE_URL}/login`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(credentials),
+    });
+
+    if (res.ok) {
+      return res.json();
+    } else {
+      console.error("Login failed - Server error:", res.status, res.statusText);
+      throw new Error("Invalid Login");
+    }
+  } catch (error) {
+    console.error("Login failed - Network error:", error);
+    throw error;
+  }
+}
