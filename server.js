@@ -15,10 +15,9 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "build")));
 
+//----------------------------------------------Routes
 // Put API routes here, before the "catch all" route
 app.use("/api/users", require("./routes/api/users"));
-//----------------------------------------------Routes
-
 app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
