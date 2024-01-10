@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { signUp, logIn } from "../utilities/users-service";
+import { logIn } from "../utilities/users-service";
 
 const LoginForm = () => {
   const [credentials, setCredentials] = useState({
     name: "",
     email: "",
     password: "",
-    confirm: "",
     error: "",
   });
 
@@ -22,8 +21,7 @@ const LoginForm = () => {
     evt.preventDefault();
 
     try {
-      // Remove 'error' and 'confirm' properties before sending the data
-      const { error, confirm, ...dataToSend } = credentials;
+      const { error, ...dataToSend } = credentials;
 
       const user = await logIn(dataToSend);
       console.log(user);
