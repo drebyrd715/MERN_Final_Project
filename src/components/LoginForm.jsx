@@ -3,27 +3,25 @@ import { logIn } from "../utilities/users-service";
 
 const LoginForm = () => {
   const [credentials, setCredentials] = useState({
-    name: "",
     email: "",
     password: "",
-    error: "",
   });
+
+  const [error, setError] = useState("");
 
   const handleChange = (evt) => {
     setCredentials({
       ...credentials,
       [evt.target.name]: evt.target.value,
-      error: "",
     });
+    setError("");
   };
 
   const handleSubmit = async (evt) => {
     evt.preventDefault();
-
     try {
-      const { error, ...dataToSend } = credentials;
-
-      const user = await logIn(dataToSend);
+      //   const { error, ...dataToSend } = credentials;
+      const user = await logIn(credentials);
       console.log(user);
     } catch {
       setCredentials({ ...credentials, error: "Sign Up Failed - Try Again" });
@@ -32,19 +30,11 @@ const LoginForm = () => {
 
   return (
     <div>
-      <div className="form-container">
-        <form autoComplete="off" onSubmit={handleSubmit}>
-          <label>Name</label>
-          <input
-            type="text"
-            name="name"
-            value={credentials.name}
-            onChange={handleChange}
-            required
-          />
+      <div className="form-container" onSubmit={handleSubmit}>
+        <form autoComplete="off">
           <label>Email</label>
           <input
-            type="email"
+            type="text"
             name="email"
             value={credentials.email}
             onChange={handleChange}
@@ -58,10 +48,10 @@ const LoginForm = () => {
             onChange={handleChange}
             required
           />
-          <button type="submit">LogIn</button>
+          <button type="submit">LOG IN</button>
         </form>
       </div>
-      <p className="error-message">&nbsp;{credentials.error}</p>
+      <p className="error-message">&nbsp;{error}</p>
     </div>
   );
 };
