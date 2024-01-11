@@ -3,14 +3,15 @@ import * as usersServic from "../utilities/users-service";
 
 function OrderHistoryPage() {
   const handleCheckToken = async () => {
-    const token = await usersServic.checkToken();
-    return token;
+    let exp = await usersServic.checkToken();
+    console.log(exp);
+    return exp;
   };
 
   return (
     <>
-      <button onClick={handleCheckToken}>Check logIn Experation</button>
       <h1>Order History Page</h1>
+      <button onClick={handleCheckToken}>Check logIn Experation</button>
     </>
   );
 }
