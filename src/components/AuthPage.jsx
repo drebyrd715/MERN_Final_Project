@@ -1,14 +1,14 @@
-import React from "react";
-import SignUpForm from "./SignUpForm";
-import LoginForm from "./LoginForm";
+// import React from "react";
+// import SignUpForm from "./SignUpForm";
+// import LoginForm from "./LoginForm";
 
-function AuthPage() {
-  return (
-    <main>
-      <SignUpForm />
-      <LoginForm />
-    </main>
-  );
-}
+// function AuthPage() {
+//   return (
+//     <main>
+//       <SignUpForm />
+//       <LoginForm />
+//     </main>
+//   );
+// }
 
-export default AuthPage;
+// export default AuthPage;

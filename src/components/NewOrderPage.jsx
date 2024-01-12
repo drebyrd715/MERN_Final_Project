@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-function NewOrderPage() {
-  return <div>NewOrderPage</div>;
-}
+// function NewOrderPage() {
+//   return <div>NewOrderPage</div>;
+// }
 
-export default NewOrderPage;
+// export default NewOrderPage;
