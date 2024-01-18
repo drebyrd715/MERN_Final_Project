@@ -1,4 +1,4 @@
-.MenuListItem {
+.JewelryListItem {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -6,13 +6,13 @@
     margin-bottom: 3vmin;
     padding: 2vmin;
     color: var(--text-light);
-    background-color: var(--white);
-    border: .1vmin solid var(--tan-3);
+    background-color: whitesmoke;
+    border: .1vmin solid black;
     border-radius: 1vmin;
     font-size: 4vmin;
   }
   
-  .MenuListItem .emoji {
+  .JewelryListItem .emoji {
     height: 8vw;
     width: 8vw;
     font-size: 4vw;
@@ -21,19 +21,19 @@
     border-radius: 1vmin;
   }
   
-  .MenuListItem .buy {
+  .JewelryListItem .buy {
     display: flex;
     flex-direction: column;
   }
   
-  .MenuListItem .buy span {
+  .JewelryListItem .buy span {
     font-size: 1.7vw;
     text-align: center;
-    color: var(--text-light);
+    color: black;
   }
   
-  .MenuListItem .name {
+  .JewelryListItem .name {
     font-size: 2vw;
     text-align: center;
-    color: var(--text-light);
+    color: black;
   }

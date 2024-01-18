@@ -27,3 +27,11 @@
     border-color: var(--blue);
     border-width: .2vmin;
     }
+
+    div{
+        color: solid black;
+    }
+
+    span{
+        color: black;
+    }

@@ -1,7 +1,10 @@
+// LoginForm.jsx
+
 import { useState } from 'react';
 import * as usersService from '../../utilities/users-service';
 
 export default function LoginForm({ setUser }) {
+  
 const [credentials, setCredentials] = useState({
   email: '',
   password: ''
@@ -21,7 +24,7 @@ async function handleSubmit(evt) {
     // will resolve to the user object included in the
     // payload of the JSON Web Token (JWT)
     const user = await usersService.login(credentials);
-    setUser(user);
+    await setUser(user);
   } catch {
     setError('Log In Failed - Try Again');
   }
@@ -29,16 +32,17 @@ async function handleSubmit(evt) {
 
 return (
   <div>
-    <div className="form-container">
-      <form autoComplete="off" onSubmit={handleSubmit}>
+    <h2>Log In To Jewelry Store</h2>
+    <div className="form-container" onSubmit={handleSubmit}>
+      <form autoComplete="off" >
         <label>Email</label>
-        <input type="text" name="email" value={credentials.email} onChange={handleChange} required />
+        <input style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}type="text" name="email" value={credentials.email} onChange={handleChange} required />
         <label>Password</label>
-        <input type="password" name="password" value={credentials.password} onChange={handleChange} required />
-        <button type="submit">LOG IN</button>
+        <input style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}type="password" name="password" value={credentials.password} onChange={handleChange} required />
+        <button style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}type="submit">LOG IN</button>
       </form>
     </div>
-    <p className="error-message">&nbsp;{error}</p>
+    <p className="error-message">;{error}</p>
   </div>
 );
 }
