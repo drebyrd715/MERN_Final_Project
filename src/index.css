@@ -137,7 +137,7 @@ button, a.button {
 }
 
 button.btn-sm {
-  font-size: 1.5vmin;
+  font-size: 2.5vmin;
   padding: .6vmin .8vmin;
   background-color: whitesmoke;
   color: black;
@@ -153,7 +153,7 @@ a.button.btn-sm {
 }
 
 button.btn-xs {
-  font-size: 1.3vmin;
+  font-size: 2.3vmin;
   padding: .4vmin .5vmin;
   background-color: whitesmoke;
   color: black;
@@ -161,7 +161,7 @@ button.btn-xs {
 }
 
 button.btn-xss {
-  font-size: 1.3vmin;
+  font-size: 2.3vmin;
   padding: .4vmin .5vmin;
   background-color: whitesmoke;
   color: black;

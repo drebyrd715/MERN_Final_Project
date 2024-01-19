@@ -1,5 +1,5 @@
 .JewelryListItem {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,13 +12,9 @@
     font-size: 4vmin;
   }
   
-  .JewelryListItem .emoji {
-    height: 8vw;
-    width: 8vw;
-    font-size: 4vw;
-    background-color: var(--tan-1);
-    border: .1vmin solid var(--tan-3);
-    border-radius: 1vmin;
+  .JewelryListItem .image {
+    height: 20vw;
+    width: 20vw;
   }
   
   .JewelryListItem .buy {

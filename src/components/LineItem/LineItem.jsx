@@ -3,7 +3,8 @@ import styles from './LineItem.module.css';
 export default function LineItem({ lineItem, isPaid, handleChangeQty }) {
 return (
   <div className={styles.LineItem}>
-    <div className="flex-ctr-ctr">{lineItem.item.image}</div>
+    <div className="flex-ctr-ctr">  
+     <img src={lineItem.item.image} /></div>
     <div className="flex-ctr-ctr flex-col">
       <span className="align-ctr">{lineItem.item.name}</span>
       <span>{lineItem.item.price.toFixed(2)}</span>
