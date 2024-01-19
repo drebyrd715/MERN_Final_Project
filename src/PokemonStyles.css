@@ -87,17 +87,17 @@
     transition: 0.5s all ease;
   }
   
-  .get-more .button:hover {
+  button:hover {
     color: white;
     cursor: pointer;
     border: 0px;
   }
   
-  .get-more .button:active {
+  button:active {
     transform: scale(0.85);
   }
   
-  .get-more .button:before {
+  button:before {
     content: "";
     width: 50%;
     height: 100%;
@@ -118,7 +118,7 @@
     transform: rotate(180deg);
   }
   
-  .get-more .button:after {
+  button:after {
     content: "";
     width: 50%;
     height: 100%;
@@ -132,7 +132,7 @@
     z-index: -1;
   }
   
-  .get-more .button:hover:after {
+  button:hover:after {
     top: 0;
     left: 50%;
     border: 0px;
@@ -170,20 +170,3 @@
     background-color: #e0f1fd;
   }
   
-  /* .nav {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(22, 22, 22);
-    border: solid blue;
-    font-size: 1.7em;
-    height: 60px;
-    padding-bottom: 18px;
-  }
-  .nav a {
-    color: whitesmoke;
-    text-decoration: none;
-  }
-  .nav a :hover {
-    color: blue;
-    text-decoration: underline;
-  } */
