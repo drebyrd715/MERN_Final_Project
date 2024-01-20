@@ -8,12 +8,12 @@ import AuthPage from '../AuthPage/AuthPage';
 import NewOrderPage from '../NewOrderPage/NewOrderPage';
 import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
 import PokemonPics from '../PokemonPage';
+import WeatherPage from '../WeatherPage';
 export const Context = createContext();
 
 export default function App() {
   const [user, setUser] = useState(getUser());
   const [allPokemon, setAllPokemon] = useState([]);
-
   return (
     <Context.Provider value ={{allPokemon, setAllPokemon}}>
     <main className={styles.App}>
@@ -28,6 +28,7 @@ export default function App() {
             {/* redirect to /orders/new if path in address bar hasn't matched a <Route> above */}
             <Route path="/*" element={<Navigate to="/orders/new" />} />
             <Route path="/pokemonpics" element={<PokemonPics/>} />
+            <Route path="/WeatherPage" element={<WeatherPage/>} />
           </Routes>
         </>
         :

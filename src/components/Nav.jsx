@@ -15,6 +15,10 @@ function Nav() {
       <Link to="/PokemonPics">
         <h4>Pokemon</h4>
       </Link>
+
+      <Link to="/WeatherPage">
+        <h4>Weather</h4>
+      </Link>
     </div>
   );
 }
