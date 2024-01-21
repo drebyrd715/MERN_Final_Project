@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="start">
       <div className="pics">
-        <h2>Do You Love To Shop!!!?</h2>
+        <h1>Do You Love To Shop!!!?</h1>
         <p>Well browse through our gallery of fine Jewelery.</p>
         <img src="https://edge.curalate.com/v1/img/A-LNtfC0Y2bd9VwiYJzgg0lzYCUUsdSIds9UTwmqqDY=/sc/300x300?spatialTags=0.642691433429718:0.4796747863292694&typ=webp" />
         <img src="https://edge.curalate.com/v1/img/_BLkSvxRCcDezTNIPSKX2qGnTT6wzitxGd7az73msmQ=/sc/300x300?spatialTags=0.5691056847572327:0.5029035806655884,0.7235772609710693:0.6178861856460571&typ=webp" />
@@ -24,13 +24,22 @@ function Home() {
         <img src="https://edge.curalate.com/v1/img/pJzmOIdLh6ZhKdJtPR8aGUuDK0kjs3cTQe23qybenkI=/sc/300x300?spatialTags=0.6880131363868713:0.5846994519233704,0.4417077302932739:0.4207650125026703,0.8784893155097961:0.6721311211585999&typ=webp" />
       </div>
       <div className="pikachu">
-        <h2> Are you a Pokemon fan? </h2>
+        <h1> Are you a Pokemon fan? </h1>
         <p> Take a look at the evolution of pokemon 
-          throughout the journey of the series </p>
-        <img src='' />
-        <img src='' />
-        <img src='' />
-        <img src='' />
+          throughout the journey of the series, as well as 
+          enjoy some Videos Games, Apps, and updated News. </p>
+        <a href ="https://scarletviolet.pokemon.com/en-us/news/" > 
+        <img src='https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-scarlet-violet/2024/01162024/scarlet-violet-169-en.png' />
+        </a>
+        <a href="https://www.pokemon.com/us/pokemon-news/blaziken-is-coming-to-7-star-tera-raid-battles" >
+        <img src='https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-scarlet-violet/events/2024/01112024/scarlet-violet-169-en.png' />
+        </a>
+        <a href="https://www.pokemon.com/us/pokemon-news/annihilape-rampages-into-pokemon-go-in-the-raging-battles-event" >
+        <img src='https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-go/2024/01192024/01/pokemon-go-169.png' />
+        </a>
+        <a href="https://www.pokemon.com/us/pokemon-news/pokemon-ultimate-journeys-the-series-quiz" >
+        <img src='https://www.pokemon.com/static-assets/content-assets/cms2/img/watch-pokemon-tv/_tiles/season25/quiz/02/season25-quiz-169-en.png' />
+        </a>
       </div>
       <div className="outside">
       <h2> While you're at it you might as well take a peek
