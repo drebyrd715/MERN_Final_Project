@@ -87,17 +87,17 @@
     transition: 0.5s all ease;
   }
   
-   .button:hover {
+   /* .get-more .button:hover {
     color: white;
     cursor: pointer;
     border: 0px;
   }
   
-   .button:active {
+  .get-more .button:active {
     transform: scale(0.85);
   }
   
-   .button:before {
+  .get-more .button:before {
     content: "";
     width: 50%;
     height: 100%;
@@ -111,14 +111,14 @@
     z-index: -1;
   }
   
-  :hover:before {
+  .get-more :hover:before {
     top: 0;
     left: 0;
     border: 0px;
     transform: rotate(180deg);
   }
   
-   .button:after {
+  .get-more .button:after {
     content: "";
     width: 50%;
     height: 100%;
@@ -132,12 +132,12 @@
     z-index: -1;
   }
   
-   .button:hover:after {
+  .get-more .button:hover:after {
     top: 0;
     left: 50%;
     border: 0px;
     transform: rotate(180deg);
-  }
+  } */
   
   .rock {
     background-color: rgb(148, 81, 81);
@@ -171,7 +171,7 @@
   }
   
    .nav {
-    background-color: whitesmoke;
+    background-color: black;
     border: solid black;
     display: flex;
     justify-content: space-evenly;
@@ -182,7 +182,7 @@
     margin-bottom: 30px;
   }
    .nav a {
-   color: black;
+   color: whitesmoke;
    text-decoration: none;
    text-transform: uppercase;
    font-size: 30px;
@@ -214,4 +214,7 @@ input {
 	width: 200px;
 	margin: 1px;
     border-color: black;
+}
+.pics{
+  text-align: center;
 }
