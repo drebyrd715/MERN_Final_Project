@@ -32,7 +32,6 @@ async function handleSubmit(evt) {
 
 return (
   <div>
-    <h2>Log In To Jewelry Store</h2>
     <div className="form-container" onSubmit={handleSubmit}>
       <form autoComplete="off" >
         <label>Email</label>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState } from 'react'
 
 function WeatherPage() {
     const [city, setCity] = useState('');
@@ -33,13 +33,13 @@ function WeatherPage() {
 	} 
 	return (
 		<div className='weather-container'>
-			<input
+			<input className='input'
 				type='text'
 				placeholder='Enter city name'
 				value={city}
 				onChange={(e) => setCity(e.target.value)}
 			/>
-			<button onClick={getWeather}>Get Weather</button>
+			<button className="wbtn" onClick={getWeather}>Get Weather</button>
 			{weatherInfo && (
 				<div className='weather-info'>
 					<h3>{weatherInfo.location}</h3>

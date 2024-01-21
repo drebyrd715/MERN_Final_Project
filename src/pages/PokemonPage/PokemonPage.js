@@ -1,8 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import PokemonPics from "../components/PokemonPics";
+import PokemonPics from "../../components/PokemonPics";
 import { useContext } from "react";
-import { Context } from "./App/App";
+import { Context } from "../App/App";
 
 
 function Pokemon() {
@@ -41,7 +41,6 @@ function Pokemon() {
   return (
     <div className="app-box">
       <h1>Pokemon Evolution</h1>
-      {/* <Searchbar/> */}
       <div className="Pokemon-box">
         <div className="all-box">
           {allPokemon.map((pokemon, index) => (

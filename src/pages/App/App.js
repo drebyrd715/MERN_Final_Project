@@ -2,13 +2,13 @@ import React, { useState, createContext } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import styles from './App.module.css';
 import { getUser } from '../../utilities/users-service';
-import Home from '../HomePage';
+import Home from '../HomePage/HomePage';
 import Nav from '../../components/Nav';
 import AuthPage from '../AuthPage/AuthPage';
 import NewOrderPage from '../NewOrderPage/NewOrderPage';
 import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
-import PokemonPics from '../PokemonPage';
-import WeatherPage from '../WeatherPage';
+import PokemonPics from '../PokemonPage/PokemonPage';
+import WeatherPage from '../WeatherPage/WeatherPage';
 export const Context = createContext();
 
 export default function App() {
