@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 7vw 12.35vw 5.75vw 5.25vw;
     padding: 1vmin 0;
-    color: var(--text-light);
+    color: white;
     background-color: var(--white);
     border-top: .1vmin solid var(--tan-3);
     font-size: 1.7vw;

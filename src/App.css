@@ -6,7 +6,9 @@
     margin-bottom: 1rem;
     text-align: center;
     color: black;
+    background-color: white;
   }
+  
   /* Pokemon css */
   .app-box {
     display: flex;
@@ -15,6 +17,7 @@
     justify-content: center;
     min-height: 100vh;
     padding: 3rem 0.5rem;
+    background-color: white;
   }
   
   .app-box h1 {
@@ -119,7 +122,7 @@
   }
   /* NavBar css */
    .nav {
-    background-color: whitesmoke;
+    background-color: white;
     border: solid black;
     display: flex;
     justify-content: space-evenly;
@@ -141,6 +144,9 @@
     text-decoration: none;
   }  
 /* HomePage css */
+.start{
+  background-color: white;
+}
 .pics{
   text-align: center;
   font-size: 23px;
@@ -180,10 +186,11 @@
 .weather-container {
 	text-align: center;
 	padding: 20px;
+  background-color: white;
 }
 .weather-info {
 	margin: 20px;
-	background-color: #eee;
+	background-color: white;
 	padding: 20px;
 }
 .wbtn {
@@ -201,7 +208,7 @@ input {
 }
 /* Footer CSS */
 .Footer {
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     width: 100%;

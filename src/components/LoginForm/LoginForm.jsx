@@ -36,10 +36,10 @@ return (
     <div className="form-container" onSubmit={handleSubmit}>
       <form autoComplete="off" >
         <label>Email</label>
-        <input style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}type="text" name="email" value={credentials.email} onChange={handleChange} required />
+        <input style={{backgroundColor:"white", color:"black", border:".2vmin solid black"}}type="text" name="email" value={credentials.email} onChange={handleChange} required />
         <label>Password</label>
-        <input style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}type="password" name="password" value={credentials.password} onChange={handleChange} required />
-        <button style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}type="submit">LOG IN</button>
+        <input style={{backgroundColor:"white", color:"black", border:".2vmin solid black"}}type="password" name="password" value={credentials.password} onChange={handleChange} required />
+        <button style={{backgroundColor:"white", color:"black", border:".2vmin solid black"}}type="submit">LOG IN</button>
       </form>
     </div>
     <p className="error-message">;{error}</p>

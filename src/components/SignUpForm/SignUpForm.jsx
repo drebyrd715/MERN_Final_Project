@@ -42,7 +42,7 @@ export default class SignUpForm extends Component {
         <div className="form-container">
           <form autoComplete="off" onSubmit={this.handleSubmit} style={{margin:"1em"}}>
             <label>Name</label>
-            <input style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}
+            <input style={{backgroundColor:"white", color:"black", border:".2vmin solid black"}}
               type="text"
               name="name"
               value={this.state.name}
@@ -50,7 +50,7 @@ export default class SignUpForm extends Component {
               required
             />
             <label>Email</label>
-            <input style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}
+            <input style={{backgroundColor:"white", color:"black", border:".2vmin solid black"}}
               type="email"
               name="email"
               value={this.state.email}
@@ -58,7 +58,7 @@ export default class SignUpForm extends Component {
               required
             />
             <label>Password</label>
-            <input style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}
+            <input style={{backgroundColor:"white", color:"black", border:".2vmin solid black"}}
               type="password"
               name="password"
               value={this.state.password}
@@ -66,14 +66,14 @@ export default class SignUpForm extends Component {
               required
             />
             <label>Confirm</label>
-            <input style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}
+            <input style={{backgroundColor:"white", color:"black", border:".2vmin solid black"}}
               type="password"
               name="confirm"
               value={this.state.confirm}
               onChange={this.handleChange}
               required
             />
-            <button style={{backgroundColor:"whitesmoke", color:"black", border:".2vmin solid black"}}type="submit" disabled={disable}>
+            <button style={{backgroundColor:"white", color:"black", border:".2vmin solid black"}}type="submit" disabled={disable}>
               SIGN UP
             </button>
           </form>

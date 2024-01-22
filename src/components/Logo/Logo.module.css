@@ -6,8 +6,12 @@
     justify-content: center;
     align-items: center;
     border-radius: 20%;
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
-    font-size: 7vmin;
+    font-size: 30px;
     border: .4vmin solid black;
+    }
+
+    .Logo div {
+    font-size: 40px;
     }

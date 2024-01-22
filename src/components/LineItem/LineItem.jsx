@@ -13,14 +13,14 @@ return (
     <div className={styles.qty} style={{ justifyContent: isPaid && 'center' }}>
       {!isPaid &&
         <button
-          className="btn-xs"
+          className="minus"
           onClick={() => handleChangeQty(lineItem.item._id, lineItem.qty - 1)}
         >-</button>
       }
       <span>{lineItem.qty}</span>
       {!isPaid &&
         <button
-          className="btn-xs"
+          className="plus"
           onClick={() => handleChangeQty(lineItem.item._id, lineItem.qty + 1)}
         >+</button>
       }
