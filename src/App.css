@@ -7,7 +7,7 @@
     text-align: center;
     color: black;
   }
-  
+  /* Pokemon css */
   .app-box {
     display: flex;
     flex-direction: column;
@@ -86,7 +86,7 @@
     z-index: 1;
     transition: 0.5s all ease;
   }
-  
+
   .rock {
     background-color: rgb(148, 81, 81);
   }
@@ -117,9 +117,9 @@
   .water {
     background-color: #e0f1fd;
   }
-  
+  /* NavBar css */
    .nav {
-    background-color: black;
+    background-color: whitesmoke;
     border: solid black;
     display: flex;
     justify-content: space-evenly;
@@ -130,7 +130,7 @@
     margin-bottom: 30px;
   }
    .nav a {
-   color: whitesmoke;
+   color: black;
    text-decoration: none;
    text-transform: uppercase;
    font-size: 30px;
@@ -140,8 +140,22 @@
     color: red;
     text-decoration: none;
   }  
-  
-  .weather-container {
+/* HomePage css */
+.pics{
+  text-align: center;
+}
+.pikachu{
+  text-align: center;
+}
+
+.outside{
+  text-align: center;
+}
+.outside img{
+  width: 1000px;
+}
+/* WeatherPage css */
+.weather-container {
 	text-align: center;
 	padding: 20px;
 }
@@ -161,11 +175,62 @@ input {
 	padding: 10px;
 	width: 200px;
 	margin: 1px;
-    border-color: black;
+  border-color: black;
 }
-.pics{
-  text-align: center;
+/* Footer CSS */
+.Footer {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 30px;
 }
-.pikachu{
-  text-align: center;
+
+.Footer a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.customer {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.store {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.about {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.promo {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin-bottom: 20px;
+}
+.follow a {
+  width: 32px;
+  height: 27px;
+  display: flex;
+  flex-direction: column;
 }
