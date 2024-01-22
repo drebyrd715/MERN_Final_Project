@@ -43,13 +43,8 @@ function Home() {
         </a>
       </div>
       <div className="outside">
-        <h1>Weather!!!</h1>
-      <p> While you're at it you might as well take a peek
-        at the weather. I'm sure you have been on this site 
-        for such a long time. Would'nt want to get rained on. </p>
-        <a href="http://localhost:3000/WeatherPage" >
+        <a href="http://localhost:3000/WeatherPage" >Todays Weather</a>
         <img src='https://t4.ftcdn.net/jpg/02/66/38/15/240_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg' />
-        </a>
       </div>
       <Footer />
     </div>

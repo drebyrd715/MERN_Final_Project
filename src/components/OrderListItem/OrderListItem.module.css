@@ -5,7 +5,7 @@
     align-items: center;
     margin-bottom: 3vmin;
     padding: 2vmin;
-    color: var(--text-light);
+    color: black;
     background-color: var(--white);
     border: .2vmin solid var(--tan-3);
     border-radius: 1vmin;
@@ -18,20 +18,21 @@
     }
     
     .OrderListItem.selected {
-    border-color: var(--blue);
+    border: 3px solid black;
     border-width: .2vmin;
     cursor: default;
     }
     
-    .OrderListItem:not(.selected):hover {
-    border-color: var(--blue);
+    .OrderListItem.selected:hover {
+    color: red;
     border-width: .2vmin;
     }
 
     div{
-        color: solid black;
+        color: 3px solid black;
+        font-size: 23px;
     }
 
     span{
-        color: black;
+        color: solid black;
     }

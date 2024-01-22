@@ -1,12 +1,14 @@
 .LineItem {
     width: 100%;
     display: grid;
-    grid-template-columns: 3vw 15.35vw 5.75vw 5.25vw;
+    grid-template-columns: 7vw 12.35vw 5.75vw 5.25vw;
     padding: 1vmin 0;
     color: var(--text-light);
     background-color: var(--white);
     border-top: .1vmin solid var(--tan-3);
-    font-size: 1.5vw;
+    font-size: 1.7vw;
+    margin-bottom: 2px;
+    border: .2vmin solid black;
     }
     
     .LineItem:last-child {
@@ -25,8 +27,12 @@
     justify-content: flex-end;
     align-items: center;
     font-size: 1.3vw;
+    color: black;
     }
     
     .LineItem button {
     margin: 0;
+    }
+    .picInCart {
+        width: 60px;
     }

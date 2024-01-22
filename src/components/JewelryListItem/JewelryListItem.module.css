@@ -1,5 +1,6 @@
 .JewelryListItem {
     width: 90%;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,10 +12,9 @@
     border-radius: 1vmin;
     font-size: 4vmin;
   }
-  
-  .JewelryListItem .image {
-    height: 20vw;
-    width: 20vw;
+
+  .JewlsPic {
+    height: 110px;
   }
   
   .JewelryListItem .buy {

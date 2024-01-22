@@ -1,9 +1,9 @@
 .UserLogOut {
   color: black;
   text-align: center;
-  font-size: 15px;
   }
   
 .UserLogOut .email {
-  font-size: smaller;
+  font-size: 25px;
+  color: black;
   }

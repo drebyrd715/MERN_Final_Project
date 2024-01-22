@@ -12,7 +12,9 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
+* {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -121,51 +123,48 @@ input:focus {
   border-color: var(--blue);
 }
 
-button, a.button {
-  margin: 1vmin;
-  padding: 1vmin;
-  color: var(--white);
-  background-color: var(--blue);
-  font-size: 2vmin;
-  font-weight: bold;
+.previous {
+  font-size: 3.5vmin;
+  padding: .6vmin .8vmin;
+  background-color: whitesmoke;
+  color: black;
+  border: .34vmin solid black;
   text-decoration: none;
-  text-align: center;
-  border: .1vmin solid var(--tan-2);
-  border-radius: .5vmin;
-  outline: none;
-  cursor: pointer;
+  margin-bottom: 20px;
+}
+.previous a {
+  color: black;
+}
+.previous a:hover {
+  color: red;
+}
+
+.Norder {
+  font-size: 4.5vmin;
+  padding: .6vmin .8vmin;
+  background-color: whitesmoke;
+  color: black;
+  border: .34vmin solid black;
+  text-decoration: none;
+}
+.Norder a {
+  color: black;
+}
+.Norder a:hover {
+  color: red;
 }
 
 button.btn-sm {
-  font-size: 2.5vmin;
+  font-size: 3.9vmin;
   padding: .6vmin .8vmin;
   background-color: whitesmoke;
   color: black;
-  border: .3vmin solid black;
+  border: .34vmin solid black;
 }
-
-a.button.btn-sm {
-  font-size: 2vmin;
-  padding: .6vmin .8vmin;
-  background-color: whitesmoke;
-  color: black;
-  border: .3vmin solid black;
-}
-
-button.btn-xs {
-  font-size: 2.3vmin;
-  padding: .4vmin .5vmin;
-  background-color: whitesmoke;
-  color: black;
-  border: .2vmin solid black;
-}
-
-button.btn-xss {
-  font-size: 2.3vmin;
-  padding: .4vmin .5vmin;
-  background-color: whitesmoke;
-  color: black;
-  border: .2vmin solid black;
+.add {
+  font-size: 15px;
+  border: .4vmin solid black;
+  color: solid black;
 }
 
 button:disabled, form:invalid button[type="submit"] {
@@ -182,4 +181,3 @@ button[type="submit"] {
   background-color: whitesmoke;
   color: black;
 }
-
