@@ -17,7 +17,7 @@ function Footer() {
           <a href="https://www.jared.com/store-finder?icid=FOOTER:StoreLocator">Store Locator</a> 
       </div>
       <div className="store">
-          <h3>Dre Store Services</h3>
+          <h3>Dre's Store Services</h3>
           <a href="https://www.jared.com/vault-rewards?icid=FOOTER:VaultRewards">Vault Rewards By Dre</a> 
           <a href="https://www.jared.com/jared-repairs-maintenance?icid=FOOTER:Repairs">Repairs & Maintenance</a> 
           <a href="https://www.jared.com/jared-custom-design-services?icid=FOOTER:CustomDesign">Customs Design Studio</a> 
