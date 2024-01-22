@@ -21,7 +21,7 @@ export default function App() {
         <>
         <Nav />
           <Routes>
-          <Route path="/" element={<Home/>} />
+            <Route path="/" element={<Home/>} />
             {/* client-side route that renders the component instance if the path matches the url in the address bar */}
             <Route path="/orders/new" element={<NewOrderPage user={user} setUser={setUser} />} />
             <Route path="/orders" element={<OrderHistoryPage user={user} setUser={setUser} />} />

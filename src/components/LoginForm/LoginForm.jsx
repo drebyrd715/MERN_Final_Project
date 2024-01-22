@@ -25,6 +25,7 @@ async function handleSubmit(evt) {
     // payload of the JSON Web Token (JWT)
     const user = await usersService.login(credentials);
     await setUser(user);
+    window.location.reload()
   } catch {
     setError('Log In Failed - Try Again');
   }
