@@ -5,6 +5,9 @@
 <h1> Jewelry Store</h1>   
 <p> Browse through the categories and collection of jewelry in the store and add items to your cart to purchase. </p> 
 
+<h1> Technologies Used </h1>
+<p> Mongo db, Javascript, html, css, Node.js and React.js</p>
+
 <h1> Features </h1>
 <p> Sign Up: Create a user account with the sign up form to be able to login to the app.</p>
 <p> Login: Login with the email and password you signed up with and begin shopping in the store.</p>
