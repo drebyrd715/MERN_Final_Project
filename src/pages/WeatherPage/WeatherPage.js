@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-
 function WeatherPage() {
     const [city, setCity] = useState('');
 	const [weatherInfo, setWeatherInfo] = useState(null);
